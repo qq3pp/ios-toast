@@ -1,0 +1,24 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#007AFF" />
+      <stop offset="100%" stop-color="#5856D6" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle with Gradient -->
+  <circle cx="100" cy="100" r="90" fill="url(#bgGradient)" />
+  <!-- Toast Notification with Shadow -->
+  <g filter="drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.3))">
+    <rect x="35" y="70" width="130" height="60" rx="30" ry="30" fill="white" />
+  </g>
+  <!-- Notification Icon Circle -->
+  <circle cx="65" cy="100" r="15" fill="#34C759" />
+  <!-- Check Mark -->
+  <path d="M58 100L63 105L72 96" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Text Lines -->
+  <rect x="90" y="85" width="60" height="8" rx="4" ry="4" fill="#1C1C1E" />
+  <rect x="90" y="101" width="45" height="6" rx="3" ry="3" fill="#8E8E93" />
+  <!-- iOS Style Notch at the Top -->
+  <rect x="80" y="35" width="40" height="5" rx="2.5" ry="2.5" fill="white" />
+</svg>
